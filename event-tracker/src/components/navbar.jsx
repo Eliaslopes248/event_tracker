@@ -4,8 +4,8 @@ import { IoMenuSharp } from "react-icons/io5";
 export function NavBar(){
 
 
-    return <div className="w-full bg-black p-7 flex justify-between lg:justify-around flex-wrap">
-        <p className="text-[18px] xl:text-2xl text-white">
+    return <div className="w-full bg-black p-7 flex justify-between lg:justify-around flex-wrap items-center">
+        <p className="text-[18px] xl:text-2xl text-white font-black">
             GatherHub
         </p>
 
