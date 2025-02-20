@@ -17,9 +17,10 @@ export function NavBar(){
         </div>
 
         <div className="lg:flex text-white gap-[10px] hover:text-gray-400 duration-[.2s] ">
-            <p className="hidden lg:block text-[13px] xl:text-[16px]">
+            <a href="/signup"><p className="hidden lg:block text-[13px] xl:text-[16px]">
                 REGISTER NOW
-            </p>
+            </p></a>
+           
             <MdOutlineArrowOutward className="  size-5 hidden lg:block"/>
             <IoMenuSharp className="text-white lg:hidden block size-8 ml-auto "/>
         </div>
